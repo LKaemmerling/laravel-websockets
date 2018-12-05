@@ -68,7 +68,7 @@ class ConfigAppProvider implements AppProvider
         }
 
         if (isset($appAttributes['url'])) {
-            $app->setUrl($appAttributes['name']);
+            $app->setUrl($appAttributes['url']);
         }
 
         $app
